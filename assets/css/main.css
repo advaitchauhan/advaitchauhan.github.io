@@ -96,9 +96,11 @@ h2 {
 	padding: 12px;
 }
 
+/* Attempts to get background to work right
 header {
     backround-image: url("assets/img/advait.jpg");
 }
+
 
 @media(min-width:768px) {
     section {
@@ -106,7 +108,6 @@ header {
         backround-image: url("assets/img/advait.jpg");
     }
 }
+*/
 
-section#projects {
-    backround-image: url("assets/img/advait.jpg");
-}
+
