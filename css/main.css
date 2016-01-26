@@ -13,10 +13,6 @@ footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    width: 100px;
-    position:fixed;
-    bottom: 0px;
-    text-align: center;
 }
 footer ul li {
     display: inline;
@@ -44,7 +40,10 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    
+    width: 100px;
+    position:fixed;
+    bottom: 0px;
+    text-align: center;
 }
 
 ul.posts { 
