@@ -1,6 +1,12 @@
+@font-face {
+    font-family: Biolinum;
+    src: url('../fonts/LinBiolinum_R.otf')
+}
+
 body {
     margin: 60px auto;
     width: 70%;
+    font-family: Dense;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
