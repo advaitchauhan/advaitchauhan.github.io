@@ -13,7 +13,10 @@ footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    margin-left: auto;
+    width: 100px;
+    position:fixed;
+    bottom: 0px;
+    text-align: center;
 }
 footer ul li {
     display: inline;
