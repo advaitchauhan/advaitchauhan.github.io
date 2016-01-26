@@ -29,7 +29,7 @@ h1 {
     font-size: 2em;
     font-family: Biolinum, 'Helvetica', 'Arial', 'Sans-Serif';
     border-bottom: 1px solid #d5d5d5;
-    align: center;
+    text-align: center
 }
 p {
     font-size: 1em;
