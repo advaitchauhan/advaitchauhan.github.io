@@ -28,6 +28,8 @@ a:hover {
 h1 {
     font-size: 2em;
     font-family: Biolinum, 'Helvetica', 'Arial', 'Sans-Serif';
+    border-bottom: 1px solid #d5d5d5;
+    align: center;
 }
 p {
     font-size: 1em;
@@ -37,6 +39,7 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    align: center;
 }
 
 ul.posts { 
