@@ -43,6 +43,7 @@ footer {
 }
 .footer {
     margin: auto;
+    padding: 10px;
 }
 
 ul.posts { 
