@@ -65,3 +65,9 @@ img.post{
     height: auto;
     margin 0 auto;
 }
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
