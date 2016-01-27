@@ -20,7 +20,7 @@ footer ul li {
 }
 a {
     text-decoration: none;
-/*    color: #FF8243;*/
+    color: #FF8243;
 }
 a:hover {
     text-decoration: underline;
