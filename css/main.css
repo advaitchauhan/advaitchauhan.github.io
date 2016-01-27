@@ -59,3 +59,10 @@ ul.posts li {
 .post {
      font-family:'Optima', 'Arial', 'Sans-Serif';
 }
+
+img.post{
+    width:60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
