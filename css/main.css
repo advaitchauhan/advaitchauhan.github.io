@@ -19,8 +19,8 @@ footer ul li {
     margin-right: 20px;
 }
 a {
-    text-decoration: none;
     color: #FF8243;
+    text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
