@@ -25,7 +25,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
+
+a.name {
     font-size: 1.5em;
     font-family: Biolinum, 'Helvetica', 'Arial', 'Sans-Serif';
     border-bottom: 1px solid #d5d5d5;
