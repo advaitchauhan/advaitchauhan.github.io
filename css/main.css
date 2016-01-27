@@ -60,15 +60,10 @@ ul.posts li {
      font-family:'Optima', 'Arial', 'Sans-Serif';
 }
 
-img.post{
-    width:400px;
-    height: auto;
-    margin 0 auto;
-}
 
 .center-image
 {
     margin: 0 auto;
     display: block;
-    width:400px;
+    width: 50%;
 }
