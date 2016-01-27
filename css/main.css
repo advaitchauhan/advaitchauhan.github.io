@@ -57,9 +57,12 @@ ul.posts li {
 }
 
 .post {
-     font-family:'Optima', 'Arial', 'Sans-Serif';
+     font-family:'Palatino', 'Arial', 'Sans-Serif';
 }
 
+.post p {
+    font-size: .9em;
+}
 
 .post img
 {
