@@ -57,5 +57,6 @@ ul.posts li {
 }
 
 .post {
-     font-family:'Baskerville', 'Arial', 'Sans-Serif';
+     font-family:'Optima', 'Arial', 'Sans-Serif';
+     width: 60%;
 }
