@@ -55,3 +55,7 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.post {
+     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
