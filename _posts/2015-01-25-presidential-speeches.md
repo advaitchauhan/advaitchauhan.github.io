@@ -31,7 +31,7 @@ Using pandas and sci-kit learn, the documents were encoded into a bag of words d
 
 I wanted to get the most "representative" words of each time period in a Bayesian sense. I modeled the unstructured learning problem as a Naive Bayes classification problem of classifying each speech into a time period. After building the classifier through sci-kit learn, I found the terms for each time period that had the highest p(term | time period) by looking at the feature coeficients within the classifier.
 
-![Alt text](img/speeches/nb.jpg "Most Indicative Words per Time Period") 
+
 
 Overall, the words in my opinion provided a surprisingly accurate reflection of major issues in each time period. One small thing I found curious is the prevalence of the word "public" in the earlier years of the nation. The underlying cause of this pattern is unclear but it is interesting to note that it fell in popularity in the Depression and War era and then disappeared altogether afterwards.
 
