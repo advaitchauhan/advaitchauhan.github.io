@@ -19,7 +19,7 @@ footer ul li {
     margin-right: 20px;
 }
 a {
-    color: #FF8243;
+    color: #999;
     text-decoration: none;
 }
 a:hover {
@@ -27,6 +27,7 @@ a:hover {
 }
 
 a.name {
+    color: #FF8243;
     font-size: 1.5em;
     font-family: Biolinum, 'Helvetica', 'Arial', 'Sans-Serif';
     border-bottom: 1px solid #d5d5d5;
