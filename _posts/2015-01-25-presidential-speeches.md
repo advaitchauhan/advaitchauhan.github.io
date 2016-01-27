@@ -4,7 +4,7 @@ title: "Exploring Presidential Speeches Across Time"
 date: 2015-01-25
 ---
 
-##Motivation:
+###Motivation:
 
 Political scientists and historians often seek to analyze patterns in political issues, movements, and topics across different points in history. 
 
