@@ -6,7 +6,7 @@ date: 2015-01-24
 
 ##Authoritarianism and Development for Growth: Deriving Insights from the stories of China, India, and South Korea
 
-*This essay is from a paper I wrote for a class I took on Asian economic development.
+*This essay is derived from a paper I wrote for a class I took on Asian economic development.
 
 ###Overview
 
