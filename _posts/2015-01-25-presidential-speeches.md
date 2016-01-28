@@ -43,15 +43,17 @@ Latent Semantic Analysis involves performing singular value decomposition on our
  
 Taking the cosine similarity between any two document vectors we can tell how similar they are.Thus multiplying our reduced rank matrix D by it's transpose and normalizing gives us a matrix of similarity scores between each document and all other documents. With these scores, I then went and created a list of most similar speeches to each speech. Here are a few of the results:
 
-![Alt text](http://advaitchauhan.github.io/img/speeches/lsa_examples.png){: .center-image }
+![Alt text](http://advaitchauhan.github.io/img/speeches/lsa_examples.png)
 
 What is most impressive to me given the naivety of the LSA decomposition is that it really seems to capture latent sentiment in some instances. I noticed this when I looked out of curiosity at Lincoln's Gettysburg Address and it's most similar speech, Wilson's 4th inaugural address:
 
-![Alt text](http://advaitchauhan.github.io/img/speeches/lsa_case.png "Two similar speeches"){: .center-image } 
+![Alt text](http://advaitchauhan.github.io/img/speeches/lsa_case.png )
 
 I extended this similarity analysis even further by creating a visualization of the relationships between Presidents based on how similar their speeches were according to LSA.  Below is the graph, with nodes representing Presidents and the node number corresponding to the President`s order in history (Presidents after Grover Cleveland are off-by-1 because Cleveland served non-consecutive terms). An edge of weight=1 is placed between node A and node B if a speech given by President B appears in the top 3 similar speeches to a speech given by President A.  This weight is incremented by 1 for each such occurrence.  The width of the line corresponds to the weight between two nodes/Presidents.
 
-![Alt text](http://advaitchauhan.github.io/img/speeches/lsa_graph.png "Presidential Similarity (LSA)"){: .center-image } 
+![Alt text](http://advaitchauhan.github.io/img/speeches/lsa_graph.png) 
+
+![Alt text](http://advaitchauhan.github.io/img/speeches/legend.png){: .smaller-image }
 
 ###Latent Dirichlet Allocation:
 
@@ -59,7 +61,7 @@ Another method I tried was the Latent Dirichlet Allocation. In this generative a
 
 As a rather crude approach on using LDA to track topics on time, I ran LDA seperately on the speeches grouped by time period. This spat out 10 "topics" for each speech collection, where a topic is a distribution over a group of words. 
 
-![Alt text](http://advaitchauhan.github.io/img/speeches/lda_full.png "Presidential Similarity (LSA)"){: .center-image } 
+![Alt text](http://advaitchauhan.github.io/img/speeches/lda_full.png )
 
 You can see the actual LDA output for the speeches in the first time period. Obviously as you can see, I gave each of the "topics" names by eye-balling the general gist of the words to create the upper chart.  This gives a rough sense of topics over time according to LDA. 
 
