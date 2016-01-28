@@ -6,6 +6,8 @@ date: 2015-01-24
 
 ##Authoritarianism and Development for Growth: Deriving Insights from the stories of China, India, and South Korea
 
+*This essay is from a paper I wrote for a class I took on Asian economic development.
+
 ###Overview
 
 China, India, and South Korea have experienced periods of dynamic growth during the second half of the 20th century, and continue to grow today. China has averaged a GDP growth rate of around 8% each year, for the last 30 years. In the same period, India’s annual growth rate has averaged a more modest 6%. During Korea’s economic transformation in the 1960s and 1970s, it averaged a growth rate of over  9%. Numerous factors can affect a country’s economic performance over a specified period: “world economic conditions, resource endowments, differing starting points, demographic factors, national price regimes, patterns of savings, culture, levels of technology, entrepreneurship, etc” (Kohli, “State Directed Development” 3). 
