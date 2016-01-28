@@ -67,3 +67,7 @@ ul.posts li {
     display: block;
     width: 550px;
 }
+
+.graph-image {
+    width: 650px;
+}
