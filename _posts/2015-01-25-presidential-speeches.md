@@ -51,7 +51,7 @@ What is most impressive to me given the naivety of the LSA decomposition is that
 
 I extended this similarity analysis even further by creating a visualization of the relationships between Presidents based on how similar their speeches were according to LSA.  Below is the graph, with nodes representing Presidents and the node number corresponding to the President`s order in history (Presidents after Grover Cleveland are off-by-1 because Cleveland served non-consecutive terms). An edge of weight=1 is placed between node A and node B if a speech given by President B appears in the top 3 similar speeches to a speech given by President A.  This weight is incremented by 1 for each such occurrence.  The width of the line corresponds to the weight between two nodes/Presidents.
 
-![Alt text](http://advaitchauhan.github.io/img/speeches/lsa_graph.png) {: .graph-image }
+![Alt text](http://advaitchauhan.github.io/img/speeches/lsa_graph.png){: .graph-image }
 
 ![Alt text](http://advaitchauhan.github.io/img/speeches/legend.png)
 
