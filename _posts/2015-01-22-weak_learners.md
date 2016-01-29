@@ -18,5 +18,6 @@ Finally, having implemented the neural net, I decided to try using it as a weak 
 References:
 
 *Stuart J. Russell and Peter Norvig(R/N). Artificial Intelligence: A Modern Approach
+
 *Robert E. Schapire and Yoav Freund.Boosting: Foundations and Algorithms.
 
