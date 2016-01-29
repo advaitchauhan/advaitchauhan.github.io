@@ -5,7 +5,7 @@ date: 2015-01-27
 ---
 
 For an assignment in my artificial intelligence class, we had to implement a classifier. I ended up building several because I wanted to analyze how different weak learners would perform with Adaboost.
-The following classifiers, which I describe, can be found on my github account. 
+The following classifiers, which I describe, can be found on my [github](https://github.com/advaitchauhan/weak-learners). 
 
 I first implemented Adaboost with decision stumps by following the Adaboost algorithm from Schapire, and choosing the decision stump for each round of boosting that would minimize the weighted training error. The implementation is in AdiClassifier2.java.
 
@@ -18,6 +18,5 @@ Finally, having implemented the neural net, I decided to try using it as a weak 
 References:
 
 *Stuart J. Russell and Peter Norvig(R/N). Artificial Intelligence: A Modern Approach
-
 *Robert E. Schapire and Yoav Freund.Boosting: Foundations and Algorithms.
 
