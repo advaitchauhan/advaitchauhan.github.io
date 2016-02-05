@@ -4,8 +4,6 @@ title: "The Economics of Indian Growth"
 date: 2015-02-04
 ---
 
-## The Economics of Indian Growth
-
 ###Overview:
 
 India’s history and path to growth have differentiated it from other developing nations in Asia and across the world. While the country has always been rooted in its steadfast belief democracy and for self-reliance since independence from Britain, economic policies have been anything but rooted.  India has gone through a myriad of contrasting economic policies since its independence. They have changed over the times in response to politics and changing leadership. 
