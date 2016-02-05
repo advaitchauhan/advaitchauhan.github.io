@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Economics of Indian Growth"
+title: "The economics of Indian growth"
 date: 2015-02-04
 ---
 
