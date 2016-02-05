@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Authoritarianism and Development"
+title: "Authoritarianism and development"
 date: 2015-01-24
 ---
 
