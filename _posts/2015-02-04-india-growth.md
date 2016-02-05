@@ -4,13 +4,13 @@ title: "The Economics of Indian Growth"
 date: 2015-02-04
 ---
 
-###Overview:
+###Overview: ###
 
 India’s history and path to growth have differentiated it from other developing nations in Asia and across the world. While the country has always been rooted in its steadfast belief democracy and for self-reliance since independence from Britain, economic policies have been anything but rooted.  India has gone through a myriad of contrasting economic policies since its independence. They have changed over the times in response to politics and changing leadership. 
 
 In this essay, I explore the shifting economic landscape of India during the 1980s and the 1990s. Essentially, I contend that despite containing elements of liberalization, the new economic policies of the 1980s were essentially pro-business, and resulted ultimately in a surge of indigenous private sector growth. Moreover, I argue that the post 1990s “liberalization” was actually more so a continuation of the policies of the previous decade, than a radical departure as generally perceived.  In this period, I maintain that the unusual mixture of liberalization with pro-growth sympathies remnant in leadership resulted in the modest growth pattern of the 1990s and 2000s. Since I seek to study economic policies and their consequences, I will generally avoid discussion on the political causes of these changes despite their fundamental importance to a full understanding of India’s growth trajectory. For each of these time periods, I will discuss the characterizing trends of the economic reforms, followed by the economic consequences of the reforms. 
       
-###1980s:
+###1980s: ###
 
 Approximately around the late 1970s or early 1980s, Indian economic policies took a sharp turn from the socialism that Indira Gandhi and the Congress Party had ostensibly championed throughout the previous decades. Numerous scholars believe that with Indira Gandhi’s re-election after the Emergency period, there was a fundamental shift in the attitude of the leadership towards economic policy, specifically one that prioritized growth and abandoned socialism.  Essentially, we will see that a pro-growth government that served the interests of business (especially large firms) dictated Indian economic policy during the 1980s. 
 
