@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Authoritarianism and development"
-date: 2015-01-24
+date: 2016-01-24
 ---
 
 ## Authoritarianism vs. Democracy for Growth: Deriving Insights from the stories of China, India, and South Korea

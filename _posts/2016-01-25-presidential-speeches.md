@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Exploring presidential speeches across time through topic modeling"
-date: 2015-01-25
+date: 2016-01-25
 ---
 
 ### Motivation:

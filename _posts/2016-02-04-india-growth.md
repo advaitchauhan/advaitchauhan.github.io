@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The economics of Indian growth"
-date: 2015-02-04
+date: 2016-02-04
 ---
 
 ### Overview: 
