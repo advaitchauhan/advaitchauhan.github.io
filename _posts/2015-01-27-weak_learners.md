@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Trying weak learners"
-date: 2016-01-22
+date: 2016-01-27
 ---
 
 For an assignment in my artificial intelligence class, we had to implement a classifier. I ended up building several because I wanted to analyze how different weak learners would perform with Adaboost.
