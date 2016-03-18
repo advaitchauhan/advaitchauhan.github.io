@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Trying weak learners"
+title: "Trying weak learners for Adaboost"
 date: 2016-01-27
 ---
 
