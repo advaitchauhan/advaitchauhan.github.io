@@ -34,8 +34,11 @@ I wanted to get the most "representative" words of each time period in a Bayesia
 ![Alt text](http://advaitchauhan.github.io/img/speeches/nb.png "Most Indicative Words per Time Period")
 
 
-Overall, the words in my opinion provided a surprisingly accurate reflection of major issues in each time period. One small thing I found curious is the prevalence of the word "public" in the earlier years of the nation. The underlying cause of this pattern is unclear but it is interesting to note that it fell in popularity in the Depression and War era and then disappeared altogether afterwards.
+Overall, the words in my opinion provided a surprisingly accurate reflection of major issues in each time period. Looking at the appearance and disappearance of words, one can also generate a lot of insights into how relevant issues changed over time. 
 
+For example, one thing I found curious is the prevalence of the word "public" in the earlier years of the nation. The underlying cause of this pattern is unclear but it is interesting to note that it fell in popularity in the Depression and War era and then disappeared altogether afterwards.
+
+Another interesting thing is the fact that the word "tax" comes up as a strong classifying feature towards the last two time periods, but not before. This means that presidents didn't mention much about taxes until the last several decades, which indicates that they have only recently become a relevant issue. While today tax policies are clearly one of the most relevant issues in politics, our data suggests that until the 1970s people didn't care much about them!
 
 ### Tracking similarity through Latent Semantic Analysis:
 
