@@ -15,7 +15,7 @@ replace NA’s with the mean value of the reported growth rates across the
 years.
 
 
-    *#load dataset
+    #load dataset
     load("gdp.Rdata")
 
     #remove all full-na rows
@@ -23,7 +23,7 @@ years.
 
     #replace na values in each row with the row mean
     ind <- which(is.na(gdp), arr.ind=TRUE)
-    gdp[ind] <- rowMeans(gdp,  na.rm = TRUE)[ind[,1]]*
+    gdp[ind] <- rowMeans(gdp,  na.rm = TRUE)[ind[,1]]
 
 
 Given each country, we use the Lasso regression to find out the countries
