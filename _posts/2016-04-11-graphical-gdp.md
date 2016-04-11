@@ -9,14 +9,14 @@ through a graphical model approach. We begin with a dataset of nations
 and their GDPs.
 
 
-    load("gdp.Rdata")
-
-
 Our GDP matrix has missing values, so I choose to directly delete
 countries that have no GDP rates reported. Then, for a given country, I
 replace NA’s with the mean value of the reported growth rates across the
 years.
 
+
+    #load dataset
+    load("gdp.Rdata")
 
     #remove all full-na rows
     gdp = gdp[apply(gdp,1,function(x)any(!is.na(x))),]
