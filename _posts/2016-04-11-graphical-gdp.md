@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Graphical GDP Growth Correlation"
+title: "Graphical GDP growth correlation"
 date: 2016-04-11
 ---
 
