@@ -26,16 +26,8 @@ years.
     gdp[ind] <- rowMeans(gdp,  na.rm = TRUE)[ind[,1]]
 
 
-Given a country A, we use the Lasso regression to find out the countries
-whose GDP growth rates are significantly associated with Country A.
-
-First we create a d x d matrix of zeroes, M, where d is the number of
-different countres in the dataset. This will be our adjacency matrix.
-
-For each country, we apply Lasso so that we can find the neighborhood of
-every node and thus recover the whole graph. In particular, we call the
-glmnet in R to regress the GDP growth rate of the country (call it
-Country A) over the GDP's growth rates of all other countries.
+Given each country, we use the Lasso regression to find out the countries
+whose GDP growth rates are significantly associated with that countries. To implement this, first we create a d x d matrix of zeroes, M, where d is the number of different countres in the dataset. This will be our adjacency matrix.For each country, we apply Lasso so that we can find the neighborhood ofevery node and thus recover the whole graph. In particular, we call the glmnet in R to regress the GDP growth rate of the country over the GDP's growth rates of all other countries.
 
 
     d = dim(gdp)[1]
