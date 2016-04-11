@@ -8,12 +8,15 @@ In this post, I seek to explore nationwide gdp growth correlation
 through a graphical model approach. We begin with a dataset of nations
 and their GDPs.
 
+
     load("gdp.Rdata")
+
 
 Our GDP matrix has missing values, so I choose to directly delete
 countries that have no GDP rates reported. Then, for a given country, I
 replace NA’s with the mean value of the reported growth rates across the
 years.
+
 
     #remove all full-na rows
     gdp = gdp[apply(gdp,1,function(x)any(!is.na(x))),]
@@ -21,6 +24,7 @@ years.
     #replace na values in each row with the row mean
     ind <- which(is.na(gdp), arr.ind=TRUE)
     gdp[ind] <- rowMeans(gdp,  na.rm = TRUE)[ind[,1]]
+
 
 Given a country A, we use the Lasso regression to find out the countries
 whose GDP growth rates are significantly associated with Country A.
@@ -33,25 +37,22 @@ every node and thus recover the whole graph. In particular, we call the
 glmnet in R to regress the GDP growth rate of the country (call it
 Country A) over the GDP's growth rates of all other countries.
 
+
     d = dim(gdp)[1]
     M = matrix(0, nrow = d, ncol = d)
 
+
 We transpose the dataframe for taking regressions.
 
+
     library(glmnet)
-
-    ## Loading required package: Matrix
-
-    ## Loading required package: foreach
-
-    ## Loaded glmnet 2.0-5
-
     gdp <- t(gdp)
     gdp <- as.data.frame(gdp)
     gdpM <- data.matrix(gdp)
 
-Now we build an adjacency graph by running regressions and following the
-and rule.
+
+Now we build an adjacency graph by running regressions for each country's GDP data upon the others.
+
 
     for (j in 1:d)
     {
@@ -70,7 +71,9 @@ and rule.
       M[j,] = as.numeric(coefs2 != 0)
     }
 
-Running the AND rule on the matrix:
+
+We use an "and" rule, which is to say that we deem two countries as conditionally dependent if and only if they both include each other as features in their regressions. We thus apply this "and" rule to our matrix.
+
 
     for (j in 1:d)
     {
@@ -87,21 +90,11 @@ Running the AND rule on the matrix:
       }
     }
 
-Finally, we plot this graph, where any node with degree greater than 5
-is colored red:
+
+Finally, we plot this graph, where any node with degree greater than 5 is colored red:
+
 
     library(igraph)
-
-    ## 
-    ## Attaching package: 'igraph'
-
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     decompose, spectrum
-
-    ## The following object is masked from 'package:base':
-    ## 
-    ##     union
 
     graphplot=function(X){
         ag=graph.adjacency(X, mode="undirected")
@@ -113,13 +106,11 @@ is colored red:
     }
     graphplot(M)
 
-    ## quartz_off_screen 
-    ##                 2
 
 ![Original](http://advaitchauhan.github.io/img/graphical_gdp/gdp_nodewise.png)
 
-According to the plot, the countries that are red are numbered 118,119,
-146, 156, 48, 49, 34, 19, 108, 130. The corresponding countries are:
+
+According to the plot, the countries that are red are numbered 118,119, 146, 156, 48, 49, 34, 19, 108, 130. The corresponding countries are:
 
     colnames(gdpM)[c(118,119,146, 156, 48, 49, 34, 19, 108, 130)]
 
