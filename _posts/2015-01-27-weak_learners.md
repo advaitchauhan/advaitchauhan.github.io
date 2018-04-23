@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Trying weak learners for Adaboost"
+title: "Experimenting with weak learners for adaptive boosting"
 date: 2016-01-27
 ---
 
