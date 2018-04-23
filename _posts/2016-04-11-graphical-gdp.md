@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Graphical GDP growth correlation"
+title: "Graphical GDP growth correlation: Using Lasso to build an Adjacency Graph "
 date: 2016-04-11
 ---
 
